@@ -62,7 +62,7 @@ subprojects { project ->
         maven {
             url "https://raw.githubusercontent.com/lazaroclapp/WALA/repository/"
         }
-        jcenter()
+        mavenCentral()
         google()
     }
 
